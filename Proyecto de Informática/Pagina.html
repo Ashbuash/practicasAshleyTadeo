@@ -4,36 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ashley Proyecto IT</title>
-     
-     <style>
-        
-      body {
-       font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-       }
-        section img{
-         width: 85%;
-         height: auto;
-       }
-      
-      table, th, td{
-
-        border:1px solid black;
-        border-collapse: collapse;
-
-      }
-
-      tr:nth-child(odd){
-
-        background-color: rgb(216, 192, 216)
-
-      }
-      </style>
+      <link rel="stylesheet" href="Css/Style.css"/>
     
 </head>
 <body>     
     <header> 
         <h1>Katniss Everdeen</h1> 
-        <nav> 
+        <nav class="nav"> 
             <ul> 
                 <li><a href="#s1" >Historia</a></li> 
                 <li><a href="#s2" >Información</a></li>
@@ -45,7 +22,7 @@
     </header> 
  
     <main> 
-        <section> 
+        <section class="section"> 
             <h2 id="s1">Historia</h2> 
             <h3>¿Quién es?</h3>
             <p>Katniss Everdeen es la protagonista de la saga de películas "Los Juegos del Hambre". 
@@ -69,13 +46,13 @@
                 contra el Capitolio, se volvió el puente para la liberación de Panem y sus habitantes de la dictadura
                 y el tirano de Snow, el presidente de el capitolio.
             </p>
-              <img src="imgashley/imagenprincipal.jpg"><br><br>
-              <a href="https://es.wikipedia.org/wiki/Katniss_Everdeen" style="text-decoration: underline;">Wiki de el personaje (Fuente Wikipedia)</a>
+              <img src="imgashley/imagenprincipal.jpg" alt="imagen principal" class="img-principal"><br><br>
+              <a href="https://es.wikipedia.org/wiki/Katniss_Everdeen" class="link-wiki">Wiki de el personaje (Fuente Wikipedia)</a>
             
 
         </section> 
          
-        <section> 
+        <section class="section"> 
             <h2 id="s2">Información</h2> 
 
             <h3>Habilidades/Características de el personaje:</h3>
@@ -112,10 +89,10 @@
             <!--Listas--> 
         </section>       
                  
-        <section> 
+        <section class="section"> 
             <h2 id="s3">Ficha técnica</h2>
 
-         <table style="border:1 px solid-black; border-collapse:inherit;">
+         <table class="tabla">
            <caption><b>Datos del Personaje</b></caption>
 
            <tr>
@@ -150,7 +127,7 @@
            
         </section>     
                  
-        <section> 
+        <section class="section"> 
             <h2 id="s4">Registro de fans</h2> 
             <!--Formulario-->
             <form>
@@ -168,14 +145,14 @@
             </form> 
         </section>     
                  
-        <section> 
+        <section class="section galeria"> 
             <h2 id="s5">Galería</h2> 
             <!--imágenes--> 
-            <img src="imgashley/f23bcc38d5b4c362ebec1783c17eacc8.jpg">
-            <img src="imgashley/katniss mockingjay dress.jpg">
-            <img src="imgashley/katniss 5.jpg">
-            <img src="imgashley/katniss 7.jpg">
-            <img src="imgashley/katniss 6.jpg">
+            <img src="imgashley/f23bcc38d5b4c362ebec1783c17eacc8.jpg" alt="imagen katniss sonriendo" class="img-galeria">
+            <img src="imgashley/katniss mockingjay dress.jpg" alt="imagen katniss en vestido de sinsajo" class="img-galeria">
+            <img src="imgashley/katniss 5.jpg" alt="imagen katniss preocupada" class="img-galeria">
+            <img src="imgashley/katniss 7.jpg" alt="Imagen de poster primera película" class="img-galeria">
+            <img src="imgashley/katniss 6.jpg" alt="imagen Katniss en bombardeo" class="img-galeria">
         </section> 
              
     </main> 
